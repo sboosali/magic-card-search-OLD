@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
-module Magic.Extra
- ( module Magic.Extra
+module Magic.Search.Extra
+ ( module Magic.Search.Extra
  , module Prelude.Spiros
  ) where
 

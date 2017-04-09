@@ -52,12 +52,12 @@ library
                      ScopedTypeVariables StandaloneDeriving
 
  exposed-modules:
-                 Magic
-                 Magic.Types
-                 Magic.Core		 
+                 Magic.Search
+                 Magic.Search.Types
+                 Magic.Search.Core		 
 -- other-modules:
-                 Magic.Extra
-                 Magic.Example
+                 Magic.Search.Extra
+                 Magic.Search.Example
 
  build-depends:
                base >=4.7 && <5

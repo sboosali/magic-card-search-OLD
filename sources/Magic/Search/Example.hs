@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-missing-signatures #-} -- to test inference
-module Magic.Example where
-import Magic()
+module Magic.Search.Example where
+import Magic.Search
 import System.Environment
 
 {-|
@@ -15,7 +15,7 @@ main = do
   _ -> return ("")
  mainWith arguments
 
-main s = do
+mainWith s = do
  putStrLn s
  putStrLn "(Magic.Example...)"
 

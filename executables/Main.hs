@@ -1,5 +1,5 @@
 {-# OPTIONS_GHC -fno-warn-missing-signatures #-}
-import qualified Magic.Example
+import qualified Magic.Search.Example
 
-main = Magic.Example.main
+main = Magic.Search.Example.main
 
