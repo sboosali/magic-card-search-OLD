@@ -1,1 +1,0 @@
-cabal new-build && ./dist-newstyle/build/magic-card-search-*/build/example-*/example-magic-card-search

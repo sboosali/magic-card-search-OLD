@@ -1,4 +1,4 @@
-{ nixpkgs ? import <nixpkgs> {}, compiler ? "ghc802" }: 
+{ nixpkgs ? import <nixpkgs> {}, compiler ? "ghcjsHEAD" }:  # ghc802
 with nixpkgs;
 let 
 ps = pkgs;
@@ -9,7 +9,7 @@ hp = hs.override{
     };};
     locpkg = hp.callPackage ./default.nix { }; 
 in locpkg.env
- 
+
 # { nixpkgs ? import <nixpkgs> {}, compiler ? "default" }:
 
 # let
