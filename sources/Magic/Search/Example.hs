@@ -17,5 +17,5 @@ main = do
 
 mainWith s = do
  putStrLn s
- putStrLn "(Magic.Example...)"
+ putStrLn "(Magic.Search.Example...)"
 
