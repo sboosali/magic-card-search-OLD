@@ -66,8 +66,8 @@ library
 
              , reflex
              , reflex-dom
-             , reflex-dom-contrib
-             , diagrams-reflex
+             , reflex-dom-contrib 
+--           , diagrams-reflex
 
              , deepseq
              , hashable
