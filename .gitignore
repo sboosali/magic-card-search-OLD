@@ -6,6 +6,8 @@ TODO
 cbits/main
 .projectile
 
+vendor/
+
 # Haskell
 cabal.project.local
 dist-newstyle/
@@ -33,4 +35,3 @@ TAGS
 
 # OS X
 .DS_Store
-

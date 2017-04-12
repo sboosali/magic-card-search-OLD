@@ -1,4 +1,7 @@
-{ mkDerivation, base, deepseq, hashable, semigroups, spiros, stdenv
+{ mkDerivation, aeson, base, containers, deepseq, diagrams
+, diagrams-reflex, Earley, hashable, lens, mtl, pipes, reflex
+, reflex-dom, reflex-dom-contrib, semigroups, spiros, stdenv, text
+, transformers
 }:
 mkDerivation {
   pname = "magic-card-search";
@@ -7,7 +10,9 @@ mkDerivation {
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
-    base deepseq hashable semigroups spiros
+    aeson base containers deepseq diagrams diagrams-reflex Earley
+    hashable lens mtl pipes reflex reflex-dom reflex-dom-contrib
+    semigroups spiros text transformers
   ];
   executableHaskellDepends = [ base ];
   homepage = "http://github.com/sboosali/magic-card-search#readme";

@@ -64,32 +64,37 @@ library
 
              , spiros
 
+             , reflex
+             , reflex-dom
+             , reflex-dom-contrib
+             , diagrams-reflex
+
              , deepseq
              , hashable
              , semigroups
-
---              , transformers
---              , mtl
---              , containers
+             , transformers
+             , mtl
+             , containers
 --              , bytestring
 --              , stm
 --              , template-haskell
 
---              , lens
+             , lens
+             , diagrams
 --              , exceptions
 --              , free
 --              , bifunctors
 --              , profunctors
 --              , either
---              , pipes
+             , pipes
 --              , formatting
 --              , servant
---              , Earley
+             , Earley
 --              , split
 --              , interpolatedstring-perl6
 --              , wl-pprint-text
---              , text
---              , aeson
+             , text
+             , aeson
 --              , unordered-containers
 --              , async
 --              , parallel
